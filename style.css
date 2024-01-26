@@ -1,12 +1,16 @@
-* {
-  border: 1px dashed hotpink;
-}
-
 .carousel-inner .carousel-item > img {
   padding-top: 15px;
   max-height: 500px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.comidas_tipicas {
+  padding-top: 70px;
+}
+
+#inicio {
+  margin-top: 70px;
 }
 
 .card-header {
@@ -49,8 +53,3 @@ text-align: center;
   font-style: italic;
 }
 
-@media screen and (min-width: 767px) and (max-width: 1023px){
-  #cards {
-    column-width: 5%;
-  }
-}
